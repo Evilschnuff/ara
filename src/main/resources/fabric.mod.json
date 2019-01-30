@@ -1,0 +1,17 @@
+{
+  "id": "modid",
+  "name": "ARA",
+  "description": "This is the Astounding Robot Assistant Mod",
+  "version": "1.0.0",
+  "side": "universal",
+  "initializers": [
+    "net.fabricmc.ara.AraMod"
+  ],
+  "requires": {
+    "fabric": "*"
+  },
+  "mixins": {
+    "client": "modid.client.json",
+    "common": "modid.common.json"
+  }
+}
